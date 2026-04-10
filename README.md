@@ -2,7 +2,19 @@
 
 A blockchain-based invoice and payment management system built on the **Stellar Soroban** network. Track invoices, manage payments, and handle overdue accounts seamlessly on-chain.
 
+## 📸 Screenshots
+
+### Landing Page
 ![Landing Page](./docs/landing-page.png)
+Beautiful welcome screen with project overview and "Get Started" button to enter the application.
+
+### Main Application Interface
+![Main Application](./docs/app-interface.png)
+Connected wallet status, tabbed navigation for invoice creation, payment actions, and queries with real-time blockchain integration.
+
+### Smart Contract on Stellar Expert
+![Contract Explorer](./docs/contract-explorer.png)
+View contract details, transaction history, and on-chain data on Stellar Expert blockchain explorer.
 
 ## 🎯 Features
 
@@ -41,14 +53,14 @@ The app will be available at `http://localhost:5174/`
 ## 📋 Usage
 
 ### 1. Landing Page
-![Landing Page UI](./docs/landing-page.png)
 - Beautiful landing page with project overview
 - Click "Get Started" to enter the application
+- Responsive design for all devices
 
 ### 2. Connect Wallet
-![Main Application](./docs/app-interface.png)
 - Click "Connect Freighter" to link your Stellar wallet
 - Shows connected wallet address and status
+- Wallet remains connected during your session
 
 ### 3. Create Invoice
 - Navigate to "Create Invoice" tab
@@ -82,12 +94,13 @@ src/
 ### Landing Page Component
 - Welcoming UI with project description
 - Smooth transition to main application
-- Responsive design
+- Responsive and accessible design
 
 ### Main Application
 - Tab-based navigation (Create, Payment, Queries)
 - Real-time wallet connection status
 - Transaction logging and output display
+- Connected wallet display at top
 
 ## 🔗 Blockchain Integration
 
@@ -98,7 +111,6 @@ Uses **Stellar Soroban** for:
 - Smart contract execution
 
 ### Contract Details
-![Contract Explorer](./docs/contract-explorer.png)
 
 **Smart Contract Address:**
 ```
@@ -113,6 +125,7 @@ CC5XU2ZPWISYJC7KO5MONDNLO6V2XLZJCME5PGKD3RUTZBSRJNNVV5PT
 - Type: WASM Contract
 - Network: Testnet
 - Creator: GCI4...QWMJ
+- Hash: 6b61c957...a147510a
 
 ## 🎨 UI Features
 
@@ -121,14 +134,17 @@ CC5XU2ZPWISYJC7KO5MONDNLO6V2XLZJCME5PGKD3RUTZBSRJNNVV5PT
 - **Dark Theme**: Easy on the eyes with green accents
 - **Loading States**: Visual feedback during transactions
 - **Status Indicators**: Real-time wallet and transaction status
+- **Tab Navigation**: Clean interface for different operations
+- **Transaction Output**: Real-time logging of all blockchain actions
 
 ## 📝 Form Validation
 
 All inputs are validated before submission:
 - Invoice IDs (max 32 characters)
 - Valid Stellar addresses (G...)
-- Proper timestamp formats
-- Amount validation
+- Proper timestamp formats (Unix seconds)
+- Amount validation (numeric values)
+- Required field checks
 
 ## ⚙️ Environment Setup
 
@@ -147,6 +163,7 @@ Every action is logged with:
 - Response data in JSON format
 - Timestamp of execution
 - Clear error messages for debugging
+- Contract invocation details
 
 ## 🔐 Security
 
@@ -154,6 +171,7 @@ Every action is logged with:
 - All transactions require wallet approval
 - Uses Freighter for secure key management
 - On-chain verification for all operations
+- No sensitive data stored locally
 
 ## 📦 Dependencies
 
@@ -161,6 +179,7 @@ Every action is logged with:
 - Vite (build tool)
 - Stellar JS SDK
 - Soroban SDK
+- Freighter API
 
 ## 🐛 Troubleshooting
 
@@ -168,16 +187,19 @@ Every action is logged with:
 - Ensure Freighter extension is installed
 - Check if you're on a supported network
 - Try refreshing the page
+- Check browser console for errors
 
 ### Transaction failing?
 - Verify you have enough XLM for fees
 - Check address format (must start with G)
 - Review the transaction log for error details
+- Ensure due date is in future timestamp
 
 ### Contract not found?
 - Ensure you're on the Testnet
 - Verify contract ID: `CC5XU2ZPWISYJC7KO5MONDNLO6V2XLZJCME5PGKD3RUTZBSRJNNVV5PT`
 - Check [Stellar Expert](https://stellar.expert/explorer/testnet/contract/CC5XU2ZPWISYJC7KO5MONDNLO6V2XLZJCME5PGKD3RUTZBSRJNNVV5PT)
+- Verify RPC URL is correct
 
 ## 📄 License
 
@@ -187,6 +209,7 @@ MIT License - feel free to use this project for personal or commercial purposes.
 
 **Shreya**
 - GitHub: [@shreyaaa2004](https://github.com/shreyaaa2004)
+- Project: Stellar Payment Tracker
 
 ## 🙏 Acknowledgments
 
