@@ -1,21 +1,21 @@
-# Stellar Payment Tracker
+![demo landing page](![demo landing page](https://github.com/user-attachments/assets/8a3e1db9-f3cd-4df0-a97d-7ef25e1d68c5))# Stellar Payment Tracker
 
 A blockchain-based invoice and payment management system built on the **Stellar Soroban** network. Track invoices, manage payments, and handle overdue accounts seamlessly on-chain.
 
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/landing-page.png)
+![Landing Page](![new landing page](https://github.com/user-attachments/assets/059a57a2-a1ca-41f0-b12e-fe1c26320519))
 
 Beautiful welcome screen with project overview and "Get Started" button to enter the application.
 
 ### Main Application Interface
-![Main Application](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/app-interface.png)
+![Main Application](![new landing page](https://github.com/user-attachments/assets/78355071-94b1-4d2e-9979-b5104fe18d09))
 
 Connected wallet status, tabbed navigation for invoice creation, payment actions, and queries with real-time blockchain integration.
 
 ### Smart Contract on Stellar Expert
-![Contract Explorer](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/contract-explorer.png)
+![Contract Explorer](![stellar account](https://github.com/user-attachments/assets/9c981a07-553e-498f-8f85-88a63031403f))
 
 View contract details, transaction history, and on-chain data on Stellar Expert blockchain explorer.
 
