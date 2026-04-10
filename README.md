@@ -5,15 +5,18 @@ A blockchain-based invoice and payment management system built on the **Stellar 
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](./docs/landing-page.png)
+![Landing Page](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/landing-page.png)
+
 Beautiful welcome screen with project overview and "Get Started" button to enter the application.
 
 ### Main Application Interface
-![Main Application](./docs/app-interface.png)
+![Main Application](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/app-interface.png)
+
 Connected wallet status, tabbed navigation for invoice creation, payment actions, and queries with real-time blockchain integration.
 
 ### Smart Contract on Stellar Expert
-![Contract Explorer](./docs/contract-explorer.png)
+![Contract Explorer](https://github.com/shreyaaa2004/stellar-shreya/raw/main/docs/contract-explorer.png)
+
 View contract details, transaction history, and on-chain data on Stellar Expert blockchain explorer.
 
 ## 🎯 Features
